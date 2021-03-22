@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">First App</string>
+    <string name="caption_first_button">Сalculator</string>
+    <string name="caption_second_button">Gallery</string>
+    <string name="caption_third_button">Titles</string>
+    <string name="caption_fourth_button">Cats</string>
+    <string name="caption_fifth_button">Tables</string>
+    <string name="caption_sixth_button">Animation</string>
+</resources>
