@@ -51,6 +51,7 @@
                 android:id="@+id/calculator"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="onClickButton"
                 android:layout_marginStart="@dimen/size_margin_buttons_edges_20dp"
                 android:layout_marginEnd="@dimen/size_margin_buttons_edges_20dp"
                 android:enabled="true"

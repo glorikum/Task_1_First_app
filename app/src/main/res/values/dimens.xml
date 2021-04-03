@@ -2,4 +2,5 @@
 <resources>
     <dimen name="size_margin_buttons_edges_20dp">20dp</dimen>
     <dimen name="size_text_toolbar_30sp">30sp</dimen>
+    <dimen name="size_margin_view_calculator_6dp">6dp</dimen>
 </resources>
