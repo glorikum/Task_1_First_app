@@ -6,5 +6,5 @@
     <string name="caption_fourth_button">Cats</string>
     <string name="caption_fifth_button">Tables</string>
     <string name="caption_sixth_button">Animation</string>
-    <string name="default_answer_text">=</string>
+    <string name="default_answer_text">=0</string>
 </resources>

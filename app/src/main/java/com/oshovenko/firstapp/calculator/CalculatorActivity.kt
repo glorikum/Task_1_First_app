@@ -1,33 +1,25 @@
 package com.oshovenko.firstapp.calculator
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
+import android.view.View
+import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 import com.oshovenko.firstapp.databinding.ActivityCalculatorBinding
 
 class CalculatorActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityCalculatorBinding
+    private lateinit var calculatorPresenter: CalculatorPresenter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityCalculatorBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        Toast.makeText(applicationContext, "Create", Toast.LENGTH_SHORT).show()
+        calculatorPresenter = CalculatorPresenter(binding)
     }
 
-    override fun onStart() {
-        super.onStart()
-        Toast.makeText(applicationContext, "Start", Toast.LENGTH_SHORT).show()
+    fun onClickCalculatorButton(view: View){
+        calculatorPresenter.onClick(view)
     }
 
-    override fun onPause() {
-        super.onPause()
-        Toast.makeText(applicationContext, "Pause", Toast.LENGTH_SHORT).show()
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        Toast.makeText(applicationContext, "Die", Toast.LENGTH_SHORT).show()
-    }
 }
