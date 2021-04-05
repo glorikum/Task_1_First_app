@@ -85,7 +85,7 @@
             <Button
                 android:id="@+id/buttonMultiplication"
                 style="@style/CalculatorButtonStyle"
-                android:text="x" />
+                android:text="*" />
         </LinearLayout>
 
         <LinearLayout
