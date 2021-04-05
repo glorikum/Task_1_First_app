@@ -14,7 +14,7 @@
         android:layout_margin="@dimen/size_margin_view_calculator_6dp"
         android:layout_weight="4"
         android:gravity="bottom|end"
-        android:textSize="@dimen/calculator_size_text_40sp" />
+        android:textSize="@dimen/calculator_textView_text_size_40sp" />
 
     <TextView
         android:id="@+id/answer"
@@ -25,7 +25,7 @@
         android:fontFamily="@font/acme"
         android:gravity="bottom|end"
         android:text="@string/default_answer_text"
-        android:textSize="@dimen/calculator_size_text_40sp"
+        android:textSize="@dimen/calculator_textView_text_size_40sp"
         android:textStyle="bold" />
 
     <LinearLayout
